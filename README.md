@@ -25,5 +25,17 @@ Select a data source of your choice with an available API and create an end-to-e
 
 <br>
 
-*The code should be written in Python 3.9+ using mainstream libraries*<br>
+*The code should be written in Python 3.9+ using mainstream libraries*
 *https://developer-docs.amazon.com/sp-api/docs/welcome*
+
+## Running with Docker
+
+1. Build the Docker Image:
+- cd to task_one/:
+`docker build -t my-americanflat-app .`
+
+2. Run the Docker container:
+`docker run --rm my-americanflat-app`
+
+3. Verify Python version:
+`docker run --rm my-americanflat-app python --version`

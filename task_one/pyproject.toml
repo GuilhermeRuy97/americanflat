@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "americanflat"
+version = "0.1.0"
+description = "Challenge resolution using a mini project as mock"
+authors = ["Guilherme <deusesdaia@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+requests = "2.31.0"
+python-dotenv = "1.0.0"
+pandas = "2.1.4"
+numpy = "1.26.2"
+google-cloud-bigquery = "3.17.2"
+google-auth-oauthlib = "1.2.0"
+
+[tool.poetry.group.dev.dependencies]
+# Development dependencies go here 
